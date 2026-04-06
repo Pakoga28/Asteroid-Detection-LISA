@@ -79,7 +79,7 @@ def process_population(df, G, r_E):
         )
 
         rp2 = (
-                rp * (math.cos(w) * math.sin((2 * math.pi) - w + om) + (math.sin(w) * math.cos(w)
+                rp * (math.cos(w) * math.sin((2 * math.pi) - w + om) + (math.sin(w) * math.cos(i)
                                                                         * math.cos((2 * math.pi) - w + om)))
         )
 
